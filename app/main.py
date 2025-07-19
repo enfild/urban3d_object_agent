@@ -13,11 +13,11 @@ from .models import (
     ExistingObject,
     ConditionRequest,
 )
-from .models import LLMFilterResponse  # separate import for clarity
+from .models import LLMFilterResponse
 from .llm_utils import (
     normalize_type,
     decide_update,
-    generate_filter_expression,  # <<< added
+    generate_filter_expression,
 )
 from ._3dutils import encode_pointcloud
 from .milvus_client import (
