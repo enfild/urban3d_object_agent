@@ -107,7 +107,7 @@ Insert open ai api key. Adjust URLs or ports as needed.
     "timestamp": "2025-07-17T14:23:00Z",
     "lat": 55.7558,
     "lon": 37.6173,
-    "type": "автомобиль",
+    "type": "car",
     "pointcloud": [[1.0, 2.0, 3.0], [1.1, 2.1, 3.1]],
     "bbox": [1.0, 2.0, 3.0, 0.5, 0.5, 1.5]
   }
