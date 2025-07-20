@@ -6,7 +6,7 @@ import requests
 from .config import settings
 
 def encode_pointcloud(points: List[List[float]]) -> List[float]:
-    # Convert 3D-points to embedding-вектор with external API.
+    # Convert 3D-points to embedding-vec with external API.
     url = settings.ENCODER_URL
     payload = {"points3d": points}
     headers = {"Content-Type": "application/json"}
