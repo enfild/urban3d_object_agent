@@ -163,7 +163,7 @@ def generate_filter_expression(condition: str) -> str:
             {"role": "user", "content": prompt},
         ],
         temperature=0.0,
-        max_tokens=100,
+        max_tokens=500,
     )
     expr = resp.choices[0].message.content.strip().strip("`")
     return expr
